@@ -3,7 +3,7 @@ fun main() {
     User("João", "Paulo"),
     User("Maria", "Dorvina")
     )
-    
+    users.set(0, User("Pedro", "Calvo"))
     users.forEach{println(it)}
     
     println(users[0])
